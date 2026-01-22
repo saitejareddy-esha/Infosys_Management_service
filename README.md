@@ -47,4 +47,8 @@ How to Run
 How to Test
 - Use browser or Postman
 - Sample payloads provided
+FLOW FOR ABOVE CODE
+  -firstly we are going to create models for the dataset, for each dataset there can be many data elements for it,after that we are going to convert it into seralizers for the convertion of python objects to json, so we use generic classes because it gives balance between apiview and viewset for  using we have generic classes to write the business logic. 
+  
+
 
